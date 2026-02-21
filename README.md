@@ -7,7 +7,7 @@ This repository contains my implementation of Lab 5: **Introduction to Creating 
 1. **Familiarize with LangChain and Pinecone** by following the official [Pinecone vector store integration tutorial](https://python.langchain.com/docs/integrations/vectorstores/pinecone).
 2. **Build a complete RAG pipeline** following the [LangChain RAG tutorial](https://python.langchain.com/docs/tutorials/rag/), integrating document chunking, vector embeddings, semantic retrieval, and LLM-based answer generation.
 
-> **Note on API providers:** The original lab instructions required using OpenAI for embeddings and the LLM. However, I was not able to use OpenAI because its API requires a paid plan (there is no free tier for programmatic usage). I also tried Google Gemini for both embeddings and LLM, but the free-tier generation quota for my Google Cloud project was consistently set to 0 (a known provisioning issue). In the end I chose the following free-tier stack that works reliably:
+> **Note on API providers:** The original lab instructions required using OpenAI for embeddings and the LLM. However, I was not able to use OpenAI because its API requires a paid plan. I also tried Google Gemini for both embeddings and LLM, but the free-tier generation quota for my Google Cloud project was consistently set to 0. In the end I chose the following free-tier stack that works reliably:
 > - **Google Gemini** for embeddings (free tier works correctly).
 > - **Groq** for the LLM (free tier: 30 requests/minute with Llama 3.3 70B).
 
