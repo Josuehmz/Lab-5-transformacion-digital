@@ -1,5 +1,5 @@
 # Lab 5 - Introduction to RAGs with LangChain, Pinecone & Groq
-
+### By: Josué Hernandez
 ## Overview
 
 This repository contains my implementation of Lab 5: **Introduction to Creating Retrieval-Augmented Generators (RAGs)**. The lab covers two main objectives:
