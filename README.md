@@ -28,17 +28,6 @@ This repository contains my implementation of Lab 5: **Introduction to Creating 
 └── README.md
 ```
 
----
-
-## Notebooks
-
-| Notebook | Tutorial implemented | What I do |
-|----------|---------------------|-----------|
-| `01_llm_chain_quickstart.ipynb` | [Pinecone integration](https://python.langchain.com/docs/integrations/vectorstores/pinecone) | I set up the vector store, add and delete documents, run similarity searches (with and without scores), and use the vector store as a LangChain Retriever. |
-| `02_rag_pinecone_openai.ipynb` | [LangChain RAG tutorial](https://python.langchain.com/docs/tutorials/rag/) | I build a full RAG pipeline: define documents, split them into chunks, embed and upsert into Pinecone, build an LCEL chain with a retriever and an LLM, and query the chain with questions. |
-
----
-
 ## Architecture & Components
 
 The RAG pipeline built follows this flow:
